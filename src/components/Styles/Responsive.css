@@ -1,0 +1,101 @@
+@media screen and (min-width:360px) and (max-width:768px) {
+    .header{
+        font-size: 10px;
+    }
+
+    .navigation ul li{
+        font-size: 10px;
+        
+        
+    }
+    
+    .navigation{
+        width: 30%;
+        height: 500px;
+        background-color:midnightblue;
+        color: white;
+        float: left;
+    }
+    
+    .main{
+        width: 70%;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        float: right;
+    }
+
+    h3{
+        margin-top: 25px;
+        font-size: 10px;
+    }
+
+    .navigation a{
+        list-style-type: none;
+        margin-top: 25px;
+        color: white;
+        margin-left: 7px;
+        font-size: 8px;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .content{
+        background-color: azure;
+        margin: 20px;
+        width: 90%;
+        height: 450px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    .navigation p{
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (min-width:412px) and (max-width:915px) {
+    
+    .navigation a{
+        list-style-type: none;
+        margin-top: 25px;
+        color: white;
+        margin-left: 7px;
+        font-size: 10px;
+    }
+
+    h3{
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    .main{
+        width: 80%;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        float: right;
+    }
+
+    .navigation{
+        width: 20%;
+        height: 500px;
+        background-color:midnightblue;
+        color: white;
+        float: left;
+    }
+
+    .content{
+        background-color: azure;
+        margin: 20px;
+        width: 94%;
+        height: 450px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+
+
+}
